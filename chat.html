@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Watch Dogs Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container details-page">
+        <div class="header">
+            <div class="act-number">CHAT</div>
+            <div class="title">_SECURE<br>COMMUNICATIONS</div>
+        </div>
+        
+        <div class="details-content">
+            <h2>_ENCRYPTED CHAT</h2>
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <div class="message received">
+                        <span class="message-sender">SYSTEM</span>
+                        <p>Secure channel established...</p>
+                    </div>
+                    <div class="message sent">
+                        <span class="message-sender">YOU</span>
+                        <p>Connection confirmed.</p>
+                    </div>
+                    <div class="message received">
+                        <span class="message-sender">SYSTEM</span>
+                        <p>Encryption active. Channel secure.</p>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-message" placeholder="Enter message...">
+                    <button class="send-button" id="send-button">SEND</button>
+                </div>
+                <div class="chat-status" id="chat-status"></div>
+            </div>
+            <a href="index.html" class="back-button">RETURN_TO_MAIN</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g fill="none" stroke="#00ff00" stroke-width="2">
+    <!-- Gun Silhouette -->
+    <path d="M70,40 L80,40 L80,60 L70,60 L70,40" fill="#00ff00" />
+    <rect x="30" y="45" width="40" height="10" fill="#00ff00" />
+    <rect x="20" y="47" width="10" height="6" fill="#00ff00" />
+    
+    <!-- Trigger -->
+    <path d="M60,55 L60,65 L55,65 L55,55" fill="#00ff00" />
+    
+    <!-- Bullet -->
+    <circle cx="85" cy="50" r="3" fill="#00ff00" />
+    <line x1="80" y1="50" x2="90" y2="50" stroke="#00ff00" stroke-width="1" />
+  </g>
+</svg>

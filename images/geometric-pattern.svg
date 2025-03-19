@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <g fill="none" stroke="#FFFFFF" stroke-width="1.5">
+    <!-- Main geometric pattern similar to the one in the image -->
+    <line x1="50" y1="50" x2="250" y2="250"/>
+    <line x1="250" y1="50" x2="50" y2="250"/>
+    <line x1="150" y1="20" x2="150" y2="280"/>
+    <line x1="20" y1="150" x2="280" y2="150"/>
+    <line x1="80" y1="30" x2="220" y2="270"/>
+    <line x1="220" y1="30" x2="80" y2="270"/>
+    <line x1="30" y1="80" x2="270" y2="220"/>
+    <line x1="270" y1="80" x2="30" y2="220"/>
+    <circle cx="150" cy="150" r="100" />
+    <circle cx="150" cy="150" r="50" />
+  </g>
+</svg>
