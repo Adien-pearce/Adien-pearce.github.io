@@ -84,16 +84,16 @@ function initializeChat() {
         showTypingIndicator();
         
         try {
-            const response = await fetch(`${API_URL}?api_key=${API_KEY}&user_input=${encodeURIComponent(userInput)}`);
+            const response = await fetch(`${API_URL}?user_input=${encodeURIComponent(userInput)}`);
             
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
             
-            const data = await response.json();
+            const data = await response();
             hideTypingIndicator();
             
-            return data.response || 'I apologize, but I am unable to process your request at this time.';
+            return data || 'I apologize, but I am unable to process your request at this time.';
         } catch (error) {
             console.error('Error fetching AI response:', error);
             hideTypingIndicator();
